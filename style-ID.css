@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.input {
+  background-image: linear-gradient(to left, #26ef5e, #28c297);
+  width: 300px;
+  height: 320px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.input div { 
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  
+}
+.card {
+  position: relative;
+  margin-left: 10%;
+  font-weight: bolder;
+  margin-top: 0%;
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-image: linear-gradient(to left, #26ef5e, #28c297);
+}
+img {
+  display: block;
+  width: 130px;
+  height: 130px;
+  border: 1px solid black;
+  background-size: 100% 100%;
+  margin-left: 5%;
+  margin-top: 0.5%;
+  border-radius: 10px;
+}
+.output {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+}
+
+button {
+  position: relative;
+  width: 40%;
+  top: 5%;
+  border-radius: 10px;
+}
+#toPDF { 
+width: 100%  !important;
+height: 100% !important;
+}
+#getPDF { 
+  width: 5%;
+  margin-left: 37%;
+}

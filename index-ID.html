@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-ID.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="input">
+        <div><label>Naam :</label> <input type="text" id="InputNaam" /></div>
+        <div>
+          <label>Telefoon :</label> <input type="text" id="InputTelefoon" />
+        </div>
+        <div>
+          <label>Straat naam :</label><input type="text" id="InputAdres" />
+        </div>
+        <div>
+          <label>Huisnummer :</label><input type="text" id="InputHuisnummer" />
+        </div>
+        <div>
+          <label>Postcode :</label><input type="text" id="InputPostcode" />
+        </div>
+        <div><label>Stad :</label><input type="text" id="InputStad" /></div>
+        <div><label>Email :</label><input type="Email" id="InputEmail" /></div>
+        <button onclick="Submit()">Verzend</button>
+      </div>
+      <div id="toPDF"> 
+      <div  class="card">
+        <div id="img"></div>
+
+        <div class="output">
+          <p>Naam : <span id="Naam"></span></p>
+          <hr />
+          <p>Telefoonnummer : <span id="Telefoon"></span></p>
+          <hr />
+          <p>Adres : <span id="Adres"></span></p>
+          <hr />
+          <p>Email : <span id="Email"></span></p>
+          <hr />
+          <p>UserID : <span id="userId"></span></p>
+          <hr />
+        </div>
+      </div>
+    </div>
+  </div>
+  <button  id="getPDF" type="button" class="btn btn-info" onclick="getPDF()">
+    Download PDF
+</button>
+    <script src="main-ID.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+  </body>
+</html>
